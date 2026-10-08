@@ -1,6 +1,6 @@
 # Titan Pixels
 
-<img src="brand/social-avatar.svg" align="left" width="80" height="80" alt="Titan Pixels logo" style="margin-right:16px; border-radius:8px;">
+<img src="../brand/social-avatar.svg" align="left" width="80" height="80" alt="Titan Pixels logo" style="margin-right:16px; border-radius:8px;">
 
 **Build. Ship. Scale.**
 Software products engineered for clarity, performance, and scale.
@@ -36,10 +36,10 @@ We build software that solves real problems - clean code, sharp design, shipped 
 
 | Asset | File |
 |-------|------|
-| Full logo | [`brand/titan-pixels-logo.svg`](brand/titan-pixels-logo.svg) |
-| Favicon | [`brand/favicon.svg`](brand/favicon.svg) |
-| Social avatar | [`brand/social-avatar.svg`](brand/social-avatar.svg) |
-| X banner | [`brand/twitter-banner.svg`](brand/x-banner.svg) |
+| Full logo | [`brand/titan-pixels-logo.svg`](../brand/titan-pixels-logo.svg) |
+| Favicon | [`brand/favicon.svg`](../brand/favicon.svg) |
+| Social avatar | [`brand/social-avatar.svg`](../brand/social-avatar.svg) |
+| X banner | [`brand/x-banner.svg`](../brand/x-banner.svg) |
 
 --
 
