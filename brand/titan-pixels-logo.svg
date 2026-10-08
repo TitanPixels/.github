@@ -1,0 +1,46 @@
+<!-- Titan Pixels — Logo (SVG) -->
+<!-- Usage: save as titian-pixels-logo.svg -->
+<!-- Color palette: primary #0EA5E9 (sky blue), accent #6366F1 (indigo), ink #0F172A (slate 900) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" width="400" height="120" role="img" aria-label="Titan Pixels logo">
+  <defs>
+    <linearGradient id="pixelGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0EA5E9"/>
+      <stop offset="100%" stop-color="#6366F1"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#334155"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Pixel grid icon: 4x4 grid, top-right pixel missing (the "i" pixel) -->
+  <g transform="translate(20, 28)" fill="url(#pixelGrad)">
+    <!-- Row 1 -->
+    <rect x="0"  y="0"  width="14" height="14" rx="2"/>
+    <rect x="18" y="0"  width="14" height="14" rx="2"/>
+    <rect x="36" y="0"  width="14" height="14" rx="2"/>
+    <!-- Row 2 -->
+    <rect x="0"  y="18" width="14" height="14" rx="2"/>
+    <!-- gap at (18,18) — this is the "i" dot space -->
+    <rect x="36" y="18" width="14" height="14" rx="2"/>
+    <!-- Row 3 -->
+    <rect x="0"  y="36" width="14" height="14" rx="2"/>
+    <rect x="18" y="36" width="14" height="14" rx="2"/>
+    <rect x="36" y="36" width="14" height="14" rx="2"/>
+    <!-- Row 4 -->
+    <rect x="0"  y="54" width="14" height="14" rx="2"/>
+    <rect x="18" y="54" width="14" height="14" rx="2"/>
+    <rect x="36" y="54" width="14" height="14" rx="2"/>
+    <!-- Accent pixel (indigo) — bottom-left -->
+    <rect x="0"  y="54" width="14" height="14" rx="2" fill="#6366F1"/>
+  </g>
+
+  <!-- "TITAN" text -->
+  <text x="105" y="72" font-family="'Inter', system-ui, -apple-system, sans-serif" font-size="48" font-weight="700" fill="url(#textGrad)" letter-spacing="-0.5">TITAN</text>
+
+  <!-- "Pixels" text in accent color -->
+  <text x="248" y="72" font-family="'Inter', system-ui, -apple-system, sans-serif" font-size="48" font-weight="600" fill="#6366F1" letter-spacing="-0.5">Pixels</text>
+
+  <!-- Tagline -->
+  <text x="105" y="98" font-family="'Inter', system-ui, -apple-system, sans-serif" font-size="13" font-weight="400" fill="#94A3B8" letter-spacing="2">BUILD. SHIP. SCALE.</text>
+</svg>

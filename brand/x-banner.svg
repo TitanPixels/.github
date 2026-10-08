@@ -1,0 +1,59 @@
+<!-- Titan Pixels — Twitter/X Banner (1500x500) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 500" width="1500" height="500" role="img" aria-label="Titan Pixels">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+    <linearGradient id="pixelGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0EA5E9"/>
+      <stop offset="100%" stop-color="#6366F1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1500" height="500" fill="url(#bgGrad)"/>
+
+  <!-- Subtle pixel grid background pattern -->
+  <g fill="#1E293B" opacity="0.5">
+    <rect x="100" y="80" width="12" height="12" rx="2"/>
+    <rect x="120" y="80" width="12" height="12" rx="2"/>
+    <rect x="140" y="80" width="12" height="12" rx="2"/>
+    <rect x="100" y="100" width="12" height="12" rx="2"/>
+    <rect x="140" y="100" width="12" height="12" rx="2"/>
+    <rect x="100" y="120" width="12" height="12" rx="2"/>
+    <rect x="120" y="120" width="12" height="12" rx="2"/>
+    <rect x="140" y="120" width="12" height="12" rx="2"/>
+
+    <rect x="1250" y="350" width="12" height="12" rx="2"/>
+    <rect x="1270" y="350" width="12" height="12" rx="2"/>
+    <rect x="1290" y="350" width="12" height="12" rx="2"/>
+    <rect x="1250" y="370" width="12" height="12" rx="2"/>
+    <rect x="1290" y="370" width="12" height="12" rx="2"/>
+    <rect x="1250" y="390" width="12" height="12" rx="2"/>
+    <rect x="1270" y="390" width="12" height="12" rx="2"/>
+    <rect x="1290" y="390" width="12" height="12" rx="2"/>
+  </g>
+
+  <!-- Large logo mark (left side) -->
+  <g transform="translate(120, 170)" fill="url(#pixelGrad)">
+    <rect x="0"  y="0"  width="30" height="30" rx="5"/>
+    <rect x="40" y="0"  width="30" height="30" rx="5"/>
+    <rect x="80" y="0"  width="30" height="30" rx="5"/>
+    <rect x="0"  y="40" width="30" height="30" rx="5"/>
+    <rect x="80" y="40" width="30" height="30" rx="5"/>
+    <rect x="0"  y="80" width="30" height="30" rx="5" fill="#6366F1"/>
+    <rect x="40" y="80" width="30" height="30" rx="5"/>
+    <rect x="80" y="80" width="30" height="30" rx="5"/>
+  </g>
+
+  <!-- Brand name (centered, large) -->
+  <text x="750" y="260" font-family="'Inter', system-ui, -apple-system, sans-serif" font-size="80" font-weight="700" fill="#F8FAFC" text-anchor="middle" letter-spacing="-1">TITAN</text>
+  <text x="750" y="260" font-family="'Inter', system-ui, -apple-system, sans-serif" font-size="80" font-weight="700" fill="url(#pixelGrad)" text-anchor="middle" letter-spacing="-1" transform="translate(0, 55)">Pixels</text>
+
+  <!-- Tagline -->
+  <text x="750" y="360" font-family="'Inter', system-ui, -apple-system, sans-serif" font-size="24" font-weight="400" fill="#94A3B8" text-anchor="middle" letter-spacing="4">BUILD. SHIP. SCALE.</text>
+
+  <!-- Accent line -->
+  <line x1="650" y1="385" x2="850" y2="385" stroke="url(#pixelGrad)" stroke-width="2" stroke-linecap="round"/>
+</svg>
